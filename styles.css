@@ -1,0 +1,43 @@
+div{
+    padding: 20px;
+    background-color: honeydew;
+} 
+#main{
+    background-color: blueviolet;
+} 
+body{
+    margin: 1cm;
+}
+nav{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 90px;
+    list-style: none;
+}
+nav a:hover{
+    color: hotpink;
+}
+nav a{
+    text-decoration: none;
+    color: darkblue;
+}
+nav img{
+    width: 10vw;
+    height: auto;
+}
+.menubotton{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    width: 100%;
+    font-size: 25px;
+    justify-content: space-around;
+}
